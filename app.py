@@ -14,7 +14,7 @@ def review(text):
   # First step: cleaning Text and removing number and punctuation marks.
   # Cleaning the texts for all review using for loop
   import re
-  import nltk
+  
   nltk.download('stopwords')
   from nltk.corpus import stopwords
   from nltk.stem.porter import PorterStemmer
